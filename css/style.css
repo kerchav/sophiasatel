@@ -1,0 +1,62 @@
+.navbar {
+    background: linear-gradient(45deg, #333, hsl(322, 76%, 46%));
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    text-align: center;
+}
+
+.icon {
+    width: 50px; /* Largura inicial do ícone */
+    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.icon:hover {
+    transform: scale(12.5) translate(50%, 50%); /* Aumenta o tamanho do ícone quando o mouse passa por cima */
+}
+
+/* Estilos do link no navbar */
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilos do link no navbar ao passar o mouse */
+.navbar a:hover {
+    color: #ffae00; /* Cor alternativa ao passar o mouse */
+}
+
+.navbar img {
+    align-items: left;
+    position: absolute;
+    left: 15px;
+    top: 17px;
+    margin-right: 15px;
+    margin-left: 10px; /* Espaçamento entre a imagem e o texto */
+    height: 30px;
+    width: 30px;
+}
+
+.container {
+    border: 1px solid hsl(0, 5%, 8%);
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer; /* Altera o cursor para indicar que é clicável */
+    display: inline-block;
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+.container img {
+    width: 150px;
+    height: 150px;
+    transition: width 0.3s ease, height 0.3s ease; /* Adiciona uma transição suave para o tamanho */
+}
+
+.container:hover img {
+    width: 400px;
+    height: 400px;
+}
+
+body {
+    background-color: #f4c2c2; /* Cor de rosa rosé */
+}
